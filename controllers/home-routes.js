@@ -35,6 +35,7 @@ router.get('/', (req, res) => {
         posts,
         loggedIn: req.session.loggedIn
       });
+    });
 });
 
 router.get('/login', (req, res) => {
